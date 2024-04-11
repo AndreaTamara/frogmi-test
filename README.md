@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/project-name.git
+    git clone https://github.com/AndreaTamara/frogmi-test
     ```
 
 2. **Configure Backend**
@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
     rackup
     ```
 
-Now you should have your server running in port:9292
+    Now you should have your server running in port:9292
 
 3. **Configure Frontend**
 
