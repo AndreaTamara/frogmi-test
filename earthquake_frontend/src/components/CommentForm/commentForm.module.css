@@ -1,0 +1,17 @@
+.formContainer {
+    margin-top: 20px;
+}
+
+.formContainer label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sendButton {
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.sendButton button {
+    font-weight: bold;
+}

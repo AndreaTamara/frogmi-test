@@ -1,0 +1,16 @@
+# Automatically generated files
+Gemfile.lock
+.DS_Store
+/db/*.sqlite3
+
+# Generated directories
+/bin/
+/log/
+/tmp/
+/vendor/
+
+# Project dependencies
+/vendor/bundle/
+
+# Sensitive files
+.env

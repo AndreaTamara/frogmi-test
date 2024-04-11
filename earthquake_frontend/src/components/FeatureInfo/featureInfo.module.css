@@ -1,0 +1,29 @@
+.featureInfoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.featureInfoContainer .attribute {
+    display: flex;
+    gap: 10px;
+}
+
+.featureInfoContainer .attribute label {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.featureInfoContainer .attribute p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width:600px) {
+    .featureInfoContainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

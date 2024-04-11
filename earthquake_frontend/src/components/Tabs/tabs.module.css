@@ -1,0 +1,24 @@
+.tabsContainer div {
+    width: 150px;
+    padding: 3px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.tabsContainer div.active {
+    background-color: var(--pale-yellow);
+    color: var(--yellow);
+    font-weight: bolder;
+}
+
+.tabsContainer {
+    border-bottom: 2px solid var(--pale-yellow);
+    display: flex;
+    gap: 2px;
+}

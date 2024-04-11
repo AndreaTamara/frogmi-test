@@ -1,0 +1,35 @@
+.featureListWrapper {
+    background-color: var(--light-gray);
+    position: absolute;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    height: calc(100vh - 173px);
+    top: 173px
+}
+
+.featureList {
+    width: 80%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 1.6s ease;
+}
+
+.featureList::after {
+    display: block;
+    content: '';
+    border: 1px solid transparent;
+    width: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width:818px) {
+    .featureListWrapper {
+        height: calc(100vh - 212px);
+        top: 212px
+    }
+}

@@ -1,0 +1,85 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    box-shadow: rgba(33, 35, 38, 0.08) 0px 7px 12px -6px;
+    z-index: 100;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lime-green);
+    color: var(--dark-cyan);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo h1,
+.logo h2 {
+    display: inline;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(75, 60, 11, 0.2);
+}
+
+.logo h2 {
+    font-size: 58px;
+    color: var(--yellow);
+}
+
+.header .filtersBar {
+    width: 80%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.filtersBar .filterSelect {
+    width: 100%;
+    max-width: 320px;
+
+}
+
+.filtersBar .paginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    min-width: 320px
+}
+
+.filtersBar .paginationWrapper .inputPageSize {
+    width: 54px;
+    /* height: 24px; */
+    font-family: "Lato", sans-serif;
+    border-radius: 9px;
+}
+
+.filtersBar .paginationWrapper .inputPageSize input {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.filtersBar .paginationWrapper .pageSizeContainer {
+    padding-right: 6px;
+}
+
+.filtersBar .paginationWrapper .pageSizeContainer span {
+    font-size: 14px;
+    color: var(--dark-cyan)
+}
+
+
+.filtersBar .paginationWrapper .pageSizeContainer span:not(:last-child) {
+    margin-inline-end: 5px;
+    margin-inline-start: 5px;
+}
