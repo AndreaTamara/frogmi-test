@@ -11,6 +11,3 @@ Gemfile.lock
 
 # Project dependencies
 /vendor/bundle/
-
-# Sensitive files
-.env
