@@ -1,5 +1,7 @@
 # Frogmi technical test
 
+[![Slide1.jpg](https://i.postimg.cc/C53b1CLK/Slide1.jpg)](https://postimg.cc/wRk14mNK)
+
 This project is a fullstack web application built whit:
 - Sinatra 
 - React
